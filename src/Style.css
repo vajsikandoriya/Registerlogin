@@ -1,0 +1,40 @@
+* { margin: 0; padding: 0; }
+ul { list-style: none; margin: 0; padding: 0;}
+
+.user-form-main {
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+    margin: 40px auto 0;
+    border: 1px solid #ccc;
+}
+.user-form-main h2 {
+    margin-bottom: 20px;
+}
+.user-form-main * {
+    box-sizing: border-box;
+}
+.user-form-inner {
+    margin-bottom: 20px;
+}
+.user-form-inner label {
+    margin-bottom: 10px;
+    display: block;
+}
+.user-form-inner input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.btn {
+    padding: 10px;
+    background: #000;
+    display: inline-block;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
